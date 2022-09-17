@@ -1,0 +1,153 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+.main{
+    width: 100%;
+    background: linear-gradient(to top, rgba(0,0,0,0.5)50%,rgba(0,0,0,0.5)50%), url(123.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 109vh;
+}
+.navbar{
+    width: 1200px;
+    height: 75px;
+    margin: auto;
+}
+.icon{
+    width: 200px;
+    float: left;
+    height: 70px;
+}
+.logo{
+    color: rgba(233, 91, 56, 0.822);
+    font-size: 35px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    float: left;
+    padding-top: 50px;
+}
+.menu{
+   width: 500px;
+    float: left;
+    height: 70px;
+}
+
+ul{
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+}
+
+ul li{
+    list-style: none;
+    margin-left: 40px;
+    margin-top: 1px;
+    font-size: 14px; 
+}
+
+ul li  a{
+     text-decoration: none;
+     color:aliceblue;
+     font-family: Arial;
+     font-weight: bold;
+     transition: 0.4s ease-in-out;
+}
+
+ul li a:hover{
+    color:  rgba(233, 91, 56, 0.822);
+}
+.search{
+    width: 330px;
+    float: left;
+    margin-left: 200px;
+}
+.srch{
+    font-family: 'arial';
+    width: 200px;
+    height: 40px;
+    background: transparent;
+    border: 1px solid  rgba(233, 91, 56, 0.822);
+    margin-top: 1px;
+    color: aliceblue;
+    border-right: 10px;
+    font-size: left;
+    padding: 10px;
+    border-top-left-radius: 10px;
+}
+
+.btn{
+    width: 100px;
+    height: 40px;
+    background:  rgba(233, 91, 56, 0.822);
+    border: 2px solid  rgba(233, 91, 56, 0.822);
+    margin-top: 1px;
+    color: aliceblue;
+    font-size: 15px;
+    border-bottom-right-radius: 10px;
+}
+.btn:focus{
+    outline: none;    
+}
+.srch:focus{
+    outline: none;
+}
+.content{
+    width: 1200px;
+    height: auto;
+    margin: auto;
+    color: aliceblue;
+    position: relative;
+}
+
+.content .par{
+    padding-left: 20px;
+    padding-bottom: 25px;
+    font-family: Arial;
+    letter-spacing: 1.2px;
+    line-height:30px;
+}
+.content h1{
+    font-family: 'Times New Roman';
+    font-size: 50px;
+    padding-left: 20px;
+    margin-top: 1%;
+    letter-spacing: 2px;
+}
+
+.content .cn{
+    width: 100px;
+    height: 40px;
+    background:  rgba(233, 91, 56, 0.822);
+    border: none;
+    margin-top: 10px;
+    margin-left: 20px;
+    font-size: 15px;
+    border-bottom-right-radius: 10px;
+    border-top-left-radius: 10px;
+    cursor: pointer;
+    transition: .2s ease;
+}
+
+.content .cn a{
+    text-decoration: none;
+    color: rgb(0, 4, 7);
+    transition: .1s ease;
+}
+.cn:hover{
+    background-color: antiquewhite;
+    font-size: 13px;
+}
+.form{
+    width: 250px;
+    height: 300px;
+    background: linear-gradient(to top,rgb(0, 4, 7)50%,rgb(0, 4, 7)50%);
+    position: absolute;
+    top: 80px;
+    left: 870px;
+    border-radius: 10px;
+    padding: 25px;
+}
+
+
